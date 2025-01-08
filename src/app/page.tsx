@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const releaseDate = new Date(process.env.COUNTDOWN || "2025-01-10T00:00:00Z");
+const releaseDate = new Date(process.env.COUNTDOWN || "2025-01-15T00:00:00Z");
 
 interface TimeLeft {
   days?: number;
@@ -59,13 +59,13 @@ export default function Home() {
         )}
       </div>
       <div className="info-section mt-10 text-base md:text-lg opacity-80">
-        <p>Follow us on Twitter: <a href="https://twitter.com/ECHOChronicles" target="_blank" className="text-teal-400 hover:opacity-70 transition-opacity"> @ECHOChronicles</a></p>
+        <p>Follow us on Twitter: <a href="https://x.com/echo_archive" target="_blank" className="text-teal-400 hover:opacity-70 transition-opacity"> @echo_archive</a></p>
         <div className="contract mt-2 text-sm md:text-base tracking-wide break-words">
         <p>Contract Address:</p>
-        <p className=" text-xs md:text-base">H3a9yYPJrp8WAqkAFY8jctzPwyGyNowcEsi3rmagpump</p>
+        <p className=" text-xs md:text-base">-</p>
         </div>
       </div>
-      <div id="footer" className="mt-5 text-sm md:text-base opacity-60 animate-flicker">Echo Chronicles // 2025</div>
+      <div id="footer" className="mt-5 text-sm md:text-base opacity-60 animate-flicker">Echo Chronicles // {new Date().getFullYear()}</div>
       </div>
     </div>
   );
