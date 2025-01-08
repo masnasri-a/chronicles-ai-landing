@@ -59,7 +59,7 @@ export default function Home() {
         )}
       </div>
       <div className="info-section mt-10 text-base md:text-lg opacity-80">
-        <p>Follow us on Twitter: <a href="https://x.com/echo_archive" target="_blank" className="text-teal-400 hover:opacity-70 transition-opacity"> @echo_archive</a></p>
+        <p>Follow the echoes: <a href="https://x.com/echo_archive" target="_blank" className="text-teal-400 hover:opacity-70 transition-opacity"> @echo_archive</a></p>
         <div className="contract mt-2 text-sm md:text-base tracking-wide break-words">
         <p>Contract Address:</p>
         <p className=" text-xs md:text-base">-</p>
