@@ -62,7 +62,7 @@ export default function Home() {
         <p>Follow the echoes: <a href="https://x.com/echo_archive" target="_blank" className="text-teal-400 hover:opacity-70 transition-opacity"> @echo_archive</a></p>
         <div className="contract mt-2 text-sm md:text-base tracking-wide break-words">
         <p>Contract Address:</p>
-        <p className=" text-xs md:text-base">-</p>
+        <p className=" text-xs md:text-base">sBkHx3cdCxENqq2CheAxDFpBeMY31dsaCUAfmdGpump</p>
         </div>
       </div>
       <div id="footer" className="mt-5 text-sm md:text-base opacity-60 animate-flicker">Echo Chronicles // {new Date().getFullYear()}</div>
