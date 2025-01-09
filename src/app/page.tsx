@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const releaseDate = new Date(process.env.COUNTDOWN || "2025-01-15T00:00:00Z");
+const releaseDate = new Date(process.env.COUNTDOWN || "2025-01-17T00:00:00Z");
 
 interface TimeLeft {
   days?: number;
